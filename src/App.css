@@ -62,8 +62,9 @@ button:hover {
   padding: 1rem;
 }
 .list:hover {
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   border: 3px var(--primary-color) solid;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 .bookName {
   font-size: 1.5rem;
@@ -72,9 +73,10 @@ button:hover {
   text-shadow: 1px 3px var(--shadow-color);
 }
 .bookRatings {
+  margin-top: 0.5rem;
   font-size: 1.5rem;
   font-weight: 700;
 
-  color: var(--primary-color);
-  text-shadow: 1px 3px var(--shadow-color);
+  color: var(--border-color);
+  /* text-shadow: 1px 3px var(--shadow-color); */
 }
