@@ -37,7 +37,7 @@ export default function App() {
   }
   return (
     <div className="App">
-      <h1 style={{ color: "var(--primary-color)" }}>📚 Good Books</h1>
+      <h1 style={{ color: "var(--primary-color)" }}>📘 Good Books</h1>
       <h2
         style={{
           fontSize: "1.7rem",
