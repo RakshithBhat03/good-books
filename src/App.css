@@ -50,6 +50,7 @@ button:hover {
   margin: 2rem auto;
   text-align: center;
   max-width: 550px;
+  position: relative;
 }
 .displayDiv ul {
   padding-inline-start: 0px;
@@ -80,5 +81,37 @@ button:hover {
   color: var(--border-color);
   /* text-shadow: 1px 3px var(--shadow-color); */
 }
-img {
+.socials {
+  font-size: 2rem;
+  color: var(--primary-color);
+  text-shadow: 1px 3px var(--shadow-color);
+}
+.list-footer {
+  list-style: none;
+  text-align: center;
+  margin: 2.5rem auto;
+  margin-left: -40px;
+}
+.link {
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  text-shadow: 1px 3px var(--shadow-color);
+}
+.link:hover {
+  color: var(--border-color);
+}
+footer {
+  position: relative;
+  width: 100%;
+  left: 0;
+  margin: 0 auto;
+  bottom: 0;
+  margin-top: 6rem;
+}
+
+.list-footer li {
+  display: inline;
+  margin: 0rem 0.5rem;
 }
