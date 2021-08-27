@@ -73,6 +73,7 @@ export default function App() {
           <li>
             <a
               href="https://github.com/RakshithBhat03"
+              rel="noreferrer noopener"
               target="_blank"
               class="link">
               Github
@@ -81,6 +82,7 @@ export default function App() {
           <li>
             <a
               href="https://twitter.com/RakshithBhat1"
+              rel="noreferrer noopener"
               target="_blank"
               class="link">
               Twitter
@@ -89,6 +91,7 @@ export default function App() {
           <li>
             <a
               href="https://www.linkedin.com/in/rakshithbhat/"
+              rel="noreferrer noopener"
               target="_blank"
               class="link">
               Linkedin
@@ -97,6 +100,7 @@ export default function App() {
           <li>
             <a
               href="https://rakshithbhat.netlify.app/"
+              rel="noreferrer noopener"
               target="_blank"
               class="link">
               Portfolio
